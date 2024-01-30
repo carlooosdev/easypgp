@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EasyPGP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>EasyPGP</h1>
+    <div id="buttons">
+        <button id="generate-key" class="active">Generate Key</button>
+        <button id="encrypt">Encrypt</button>
+        <button id="decrypt">Decrypt</button>
+    </div>
+    <div id="output">
+        <h2 id="title">Key pair generated successfully.</h2>
+        <textarea id="input-text" placeholder="Type your message here"></textarea>
+        <textarea id="output-text" placeholder="Result"></textarea>
+        <textarea id="private-key" placeholder="Insert your private key here"></textarea>
+        <textarea id="public-key" placeholder="Insert recipient's public key here"></textarea>
+        <input type="password" id="passphrase" placeholder="Enter your passphrase">
+    </div>
+    <script src="https://unpkg.com/openpgp@4.10.4/dist/openpgp.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

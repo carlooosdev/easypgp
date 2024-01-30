@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F9FA;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #3B86FF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button.active {
+    background-color: #2A69CC;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid 1px #B9BEC5;
+    padding: 10px;
+}
+
+input[type="password"] {
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid 1px #B9BEC5;
+    padding: 10px;
+}
